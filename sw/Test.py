@@ -9,5 +9,6 @@ from _pytest.outcomes import fail
 from FileToBeTested import DataFiller
 
 def test_test1(qtbot):
+  assert qt_api.QApplication.instance() is not None
   DataFiller.stampa()
   assert True
