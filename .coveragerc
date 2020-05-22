@@ -1,5 +1,4 @@
 [run]
-include=sw/*
 
 [report]
 include=sw/*
