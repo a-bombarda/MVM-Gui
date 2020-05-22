@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pytestqt.qt_compat import qt_api
 import pytest
 import time
@@ -6,6 +8,6 @@ from PyQt5.Qt import QTimer
 from _pytest.outcomes import fail
 from FileToBeTested import DataFiller
 
-def test1(qtbot):
+def test_test1(qtbot):
   DataFiller.stampa()
   assert True
