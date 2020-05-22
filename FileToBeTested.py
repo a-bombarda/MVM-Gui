@@ -1,2 +1,4 @@
-if __name__ == "__main__":
-    print("AAAA")
+class DataFiller():
+    
+    def stampa():
+        print("AAA")
