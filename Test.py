@@ -4,7 +4,8 @@ import time
 import threading
 from PyQt5.Qt import QTimer
 from _pytest.outcomes import fail
-from FileToBeTested import *
+from FileToBeTested import DataFiller
 
 def test1(qtbot):
-  FileToBeTested
+  DataFiller.stampa()
+  assert True
