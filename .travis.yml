@@ -44,6 +44,6 @@ deploy:
   
 # command to run tests
 script:
-  - coverage run -m pytest sw/test
+  - coverage run -m pytest sw/test_file.py
   - coverage report -m
   - coverage html
