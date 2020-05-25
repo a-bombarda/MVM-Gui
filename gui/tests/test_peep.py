@@ -27,6 +27,8 @@ def test_check_peep_on_monitor(qtbot):
 
     assert window.monitors['peep'] is not None
 
+	p = PEEP()
+
     # Set a negative value for the t5 parameter, so the time t is obiously greater than t5
     t5 = p.phase_start["restart"]
     p.phase_start["restart"] = -1
