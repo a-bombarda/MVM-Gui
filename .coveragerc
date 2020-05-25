@@ -1,4 +1,6 @@
 [run]
+omit=gui/tests/*,*__init__.py
 
 [report]
-include=sw/*
+include=gui/*
+omit=gui/tests/*,*__init__.py
