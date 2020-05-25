@@ -43,12 +43,4 @@ deploy:
   
 # command to run tests
 script:
-  - coverage run -m pytest 
-  - coverage report -m
-
-after_success:
-  - coverage html
-  
-after_failure:
-  - coverage html
-
+  - py.test --cov-report html --cov=.
