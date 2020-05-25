@@ -11,7 +11,7 @@ from communication.fake_esp32serial import FakeESP32Serial
 """
 TH13
 """
-def check_peep_on_monitor(qtbot):
+def test_check_peep_on_monitor(qtbot):
     '''
     Check that the peep monitor has been initialized
     '''
