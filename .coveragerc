@@ -1,5 +1,5 @@
 [run]
-omit=*__init__.py
+omit=gui/tests/*,*__init__.py
 
 [report]
 include=gui/*
