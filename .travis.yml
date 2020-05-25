@@ -44,4 +44,6 @@ deploy:
 # command to run tests
 script:
   - coverage run -m pytest ; coverage html
+  
+after_deploy:
   - coverage run -m pytest
