@@ -29,7 +29,6 @@ env:
   
 branches:
   only:
-  - gh-pages
   - master
   
 # deploy to the pages
