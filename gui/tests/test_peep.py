@@ -3,6 +3,7 @@
 # from pytestqt import qt_compat
 from pytestqt.qt_compat import qt_api
 import pytest
+from .mvm_basics import *
 from communication.peep import PEEP
 from mainwindow import MainWindow
 from communication.fake_esp32serial import FakeESP32Serial
