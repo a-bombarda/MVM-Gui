@@ -45,4 +45,6 @@ deploy:
 script:
   - coverage run -m pytest 
   - coverage report -m
+
+after_script:
   - coverage html
